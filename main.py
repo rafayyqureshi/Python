@@ -1,23 +1,23 @@
 # Python print code
-# print("Hello World: ")
+print("Hello World: ")
 
 # Python Variable
 
-# name = input("What is Your Name: ")
-# length = len(name)
-# print(length)
+name = input("What is Your Name: ")
+length = len(name)
+print(length)
 
-#Switch Values
+# Switch Values
 
-# a = input("a= ")
-# b = input("b= ")
+a = input("a= ")
+b = input("b= ")
 
-# c = a
-# a = b
-# b = c
+c = a
+a = b
+b = c
 
-# print("a= ", a)
-# print("b= ", b)
+print("a= ", a)
+print("b= ", b)
 
 # Band Name Generator
 
