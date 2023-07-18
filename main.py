@@ -138,7 +138,7 @@ tip_cal = float(bill) / int(percentage) * int (tip)
 split_cal = float(tip_cal) / int(split)
 bill_cal = float(bill) / int(split)
 total_bill = float(bill_cal) + float(split_cal)
-final_amount = round(total_bill, 2)
+final_amount = "{:.2f}".format(total_bill, 2) # round(totall_bill,2)
 
 print(f"Each person should pay ${final_amount}")
 
