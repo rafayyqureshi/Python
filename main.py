@@ -88,11 +88,11 @@
 # print("3.0")
 
 # BMI CALCULATOR
-# weight = input("Please enter weight: ")
-# height = input("Please enter height: ")
-# bmi = int(weight) / float(height) ** 2
-# int_bmi = int(bmi)
-# print(int_bmi)
+weight = input("Please enter weight: ")
+height = input("Please enter height: ")
+bmi = int(weight) / float(height) ** 2
+int_bmi = int(bmi)
+print(int_bmi)
 
 #Number Manipulation and F String in PYTHON
 
@@ -128,17 +128,42 @@
 
 # Tip Calculator
 
-percentage = 100
-print("Welcome to the tip calculator.")
-bill = input("What is your total bill? $")
-tip = input("What percentage tip would you like to give 10, 12 or 15?")
-split = input("How many people to split the bill? ")
+# percentage = 100
+# print("Welcome to the tip calculator.")
+# bill = input("What is your total bill? $")
+# tip = input("What percentage tip would you like to give 10, 12 or 15?")
+# split = input("How many people to split the bill? ")
 
-tip_cal = float(bill) / int(percentage) * int (tip)
-split_cal = float(tip_cal) / int(split)
-bill_cal = float(bill) / int(split)
-total_bill = float(bill_cal) + float(split_cal)
-final_amount = "{:.2f}".format(total_bill, 2) # round(totall_bill,2)
+# tip_cal = float(bill) / int(percentage) * int (tip)
+# split_cal = float(tip_cal) / int(split)
+# bill_cal = float(bill) / int(split)
+# total_bill = float(bill_cal) + float(split_cal)
+# final_amount = "{:.2f}".format(total_bill, 2) # round(totall_bill,2)
+# print(f"Each person should pay ${final_amount}") 
 
-print(f"Each person should pay ${final_amount}")
+                                            # Day3
 
+#Conditional Operator / if / else
+
+# print("Welcome to the rollercoaster!")
+# height = int(input("Please enter your height: "))
+# if height >= 120:
+#     print("You can ride the rollercoaster.")
+#     age = int(input("Enter your age: "))
+#     if age < 12:
+#         print("Please pay $5")
+#     elif age <18:
+#         print("Please pay $7")
+#     else:
+#         print("Please pay $12")
+# else:
+#     print("Sorry, you need to grow taller before you can ride.")
+
+#Modulo
+
+# num = input("Enter any number: ")
+# modulo = int(num) % 2
+# if modulo == 0:
+#     print("Nmber is even")
+# else:
+#     print("Number is odd")
