@@ -87,12 +87,12 @@
 # print(3*3+3/3-7)
 # print("3.0")
 
-# BMI CALCULATOR
-weight = input("Please enter weight: ")
-height = input("Please enter height: ")
-bmi = int(weight) / float(height) ** 2
-int_bmi = int(bmi)
-print(int_bmi)
+# # BMI CALCULATOR
+# weight = input("Please enter weight: ")
+# height = input("Please enter height: ")
+# bmi = int(weight) / float(height) ** 2
+# int_bmi = int(bmi)
+# print(int_bmi)
 
 #Number Manipulation and F String in PYTHON
 
@@ -167,3 +167,20 @@ print(int_bmi)
 #     print("Nmber is even")
 # else:
 #     print("Number is odd")
+
+
+# BMI CALCULATOR 2.0
+weight = input("Please enter weight: ")
+height = input("Please enter height: ")
+bmi = int(weight) / float(height) ** 2
+int_bmi = int(bmi)
+if int_bmi <= 18.5:
+    print(f"Your BMI id {int_bmi}. You are under weight.")
+if int_bmi >= 18.5 and int_bmi <= 25 :
+    print(f"Your BMI id {int_bmi}. You have a normal weight.")
+if int_bmi >= 25 and int_bmi <= 30:
+    print(f"Your BMI id {int_bmi}. You are over weight.") 
+if int_bmi >= 30 and int_bmi <= 35:
+    print(f"Your BMI id {int_bmi}. You are over obese.") 
+if int_bmi >= 35:
+    print("You are above 35. You are clinically abese.")
