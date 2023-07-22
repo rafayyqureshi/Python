@@ -145,32 +145,32 @@
 
 #Conditional Operator / if / else
 
-print("Welcome to the rollercoaster!")
-height = int(input("Please enter your height in cm: "))
-bill = 0
-if height >= 120:
-    print("You can ride the rollercoaster.")
-    age = int(input("Enter your age: "))
-    if age < 12:
-        bill = 5
-        print("Please pay $5")
-    elif age <18:
-        bill = 7
-        print("Please pay $7")
-    else:
-        bill = 12
-        print("Please pay $12")
+# print("Welcome to the rollercoaster!")
+# height = int(input("Please enter your height in cm: "))
+# bill = 0
+# if height >= 120:
+#     print("You can ride the rollercoaster.")
+#     age = int(input("Enter your age: "))
+#     if age < 12:
+#         bill = 5
+#         print("Please pay $5")
+#     elif age <18:
+#         bill = 7
+#         print("Please pay $7")
+#     else:
+#         bill = 12
+#         print("Please pay $12")
 
 
-    photo = input("Do you want a photo taken? Y or N: ")
-    if photo == "Y":
-        bill += 3
+#     photo = input("Do you want a photo taken? Y or N: ")
+#     if photo == "Y":
+#         bill += 3
 
-        print(f"Your final bill is {bill}.")
+#         print(f"Your final bill is {bill}.")
 
 
-else:
-    print("Sorry, you need to grow taller before you can ride.")
+# else:
+#     print("Sorry, you need to grow taller before you can ride.")
     
 #Modulo
 
@@ -204,3 +204,39 @@ else:
 #     print("It's a leap year.")
 # else:
 #     print("Not a leap year.")
+
+# Pizza ordering
+
+print("Welcome to python Pizza!")
+
+size = input("What size of pizza do you want? S , M , L : ")
+add_papperoni = input("Do you want to add Papperoni? Y or N : ")
+extra_cheese = input("Do you want extra cheese? Y or N: ")
+
+if size == "S" and add_papperoni != "Y" and extra_cheese != "Y":
+    print("Your final bill is $15.")
+
+elif size == "S" and add_papperoni == "Y" and extra_cheese != "Y":
+    print("Your final bill is $17 of Small pizza with papperoni")
+
+elif size == "S" and add_papperoni == "Y" and extra_cheese == "Y":
+    print("Your final bill is $17 of Small pizza with papperoni and extra cheese.")
+
+if size == "M" and add_papperoni != "Y" and extra_cheese != "Y":
+    print("Your final bill is $20.")
+
+elif size == "M" and add_papperoni == "Y" and extra_cheese != "Y":
+    print("Your final bill is $23 of Medium pizza with papperoni")
+
+elif size == "M" and add_papperoni == "Y" and extra_cheese == "Y":
+    print("Your final bill is $23 of Medium pizza with papperoni and extra cheese.")
+
+if size == "L" and add_papperoni != "Y" and extra_cheese != "Y":
+    print("Your final bill is $25.")
+
+elif size == "L" and add_papperoni == "Y" and extra_cheese != "Y":
+    print("Your final bill is $28 of Large pizza with papperoni")
+
+elif size == "L" and add_papperoni == "Y" and extra_cheese == "Y":
+    print("Your final bill is $28 of Large pizza with papperoni and extra cheese.")
+
