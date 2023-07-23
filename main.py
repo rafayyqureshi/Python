@@ -1,3 +1,4 @@
+# <<<<<<< HEAD
                                         # DAY1
 
 # Python print code
@@ -240,3 +241,7 @@ elif size == "L" and add_papperoni == "Y" and extra_cheese != "Y":
 elif size == "L" and add_papperoni == "Y" and extra_cheese == "Y":
     print("Your final bill is $28 of Large pizza with papperoni and extra cheese.")
 
+# =======
+#DAY 1 COMPLETED
+#DAY 2 COMPLETED
+# >>>>>>> day3
