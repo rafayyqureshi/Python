@@ -39,6 +39,8 @@ if road == "left":
         else:
             print("You choose the door that dosn't exist! Game Over!")
     else:
-        print("You git attacked by an angry trout. Game Over!")
+        print("You git attacked by an angry trout. Game Over.")
 else:
-    print("You fell into the hole. Game Over!")
+    print("You fell into the hole. Game Over.")
+
+#Completed
