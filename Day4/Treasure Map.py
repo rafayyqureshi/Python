@@ -8,19 +8,19 @@ position = input("Where do you want to put the treasure? ")
 if position == "11":
     row1[0] = "X"
 elif position == "21":
-    row2[0] = "X"
+    row1[1] = "X"
 elif position == "31":
-    row3[0] = "X"
+    row1[2] = "X"
 elif position == "12":
-    row2[1] = "X"
+    row2[0] = "X"
 elif position == "22":
-    row3[1] = "X"
+    row2[1] = "X"
 elif position == "32":
-    row3[1] = "X"
-elif position == "13":
     row2[2] = "X"
+elif position == "13":
+    row3[0] = "X"
 elif position == "23":
-    row3[2] = "X"
+    row3[1] = "X"
 elif position == "33":
     row3[2] = "X"
 else:
