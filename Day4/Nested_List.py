@@ -3,4 +3,4 @@ List2 = ["6","7","8","9","10"]
 
 List3 = [List1,List2]
 
-print(List3)
+print(List3[1][1]),
