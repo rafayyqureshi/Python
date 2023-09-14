@@ -4,3 +4,5 @@ for fruit in fruits:
     print(fruit + "Pie")
     #inside for loop
     print(fruits)
+# outside for loop
+print(fruits)
