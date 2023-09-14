@@ -5,7 +5,7 @@ total = 0
 
 # Initialize count to 0 to keep track of the number of heights
 count = 0
-
+ 
 # Input a list of student heights and split them
 students_heights = input("Input a list of student heights: ").split()
 
