@@ -1,3 +1,5 @@
+# Using the for loop with python list
+
 fruits = ["Apple", "Peach", "Pear"]
 for fruit in fruits:
     print(fruit)
@@ -6,3 +8,5 @@ for fruit in fruits:
     print(fruits)
 # outside for loop
 print(fruits)
+
+
